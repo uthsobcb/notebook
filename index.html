@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Notebook</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="note.js"> </script>
+    </head>
+    <body>
+        <div id ="notebook">
+            <div id = "cover" onclick ="changeRight('cover')">
+                <i onclick ="changeRight('cover')" class="fa fa-arrow-circle-right"></i>
+                <div id = "br"></div>
+            </div>
+            <div class = "page" id ="a">
+                <p id = "firstPage">A little try of Uthsob</p>
+                <!--blank-->
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('cover',11)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('a',12)"></i>
+            </div>
+            <div class = "page" id = "b">
+                <img src="https://picsum.photos/200/300?random=1" class = "movieImage">
+                <br>
+                <p class = 'movieTitle'>Lucifer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('a',10)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('b',13)"></i>
+            </div>
+            <div class = "page" id = "c">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">The Flash</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('b',9)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('c',14)"></i>
+            </div>
+            <div class = "page" id = "d">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">Arrow</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('c',8)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('d',15)"></i>
+            </div>
+            <div class = "page" id = "e">
+                <img src = "#" class = "#">
+                <br>
+                <p class = "movieTitle">Legends of Tomorrow</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('d',7)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('e',16)"></i>
+            </div>
+            <div class = "page" id = "f">
+                <img src = "#" class = "#">
+                <br>
+                <p class = "movieTitle">Cloack and Dagger</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('e',6)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('f',17)"></i>
+            </div>
+            <div class = "page" id = "g">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">Agents of S.H.I.E.L.D</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('f',5)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('g',18)"></i>
+            </div>
+            <div class = "page" id = "h">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">Vah Helsing</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('g',4)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('h',19)"></i>
+            </div>
+            <div class = "page" id = "i">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">The Walking Dead</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('h',3)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('i',20)"></i>
+            </div>
+            <div class = "page" id = "j">
+                <img src = "https://picsum.photos/200/300?random" class = "movieImage">
+                <br>
+                <p class = "movieTitle">Doctor Who</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('i',2)"></i>
+                <i class="fa fa-arrow-circle-right" onclick = "changeRight('j',21)"></i>
+            </div>
+            <div class = "page" id = "backCover">
+                <div id = "secretPaper" onclick = "secretPage()">
+                    <q>Life moves so fast, and we’re so distracted, that sometimes we just need to slow down, feel, think and just be.</q>
+                </div>
+                <div id = "hideout"></div>
+                <i class="fa fa-arrow-circle-left" onclick = "changeLeft('j',1)" id ="lastArrow"></i>
+            </div>
+        </div>
+    </body>
+</html>
